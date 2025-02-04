@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; } 
+body { line-height: 1; color: black; background: white; } 
+table { border-collapse: separate; border-spacing: 0; } caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; } blockquote, q { quotes: "" ""; }
+
+body {
+	font-family: 'helvetica', 'arial', sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	margin: 0 0 3em;
+	text-align: center;
+}
+
+#all {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	max-width: 50em;
+	text-align: left;
+	width:expression( 
+    document.body.clientWidth > (500/12) * 
+    parseInt(document.body.currentStyle.fontSize)?
+        "50em":
+        "auto" );
+}
+#dylan_quote {
+	font-size: 1.125em;
+	font-style: italic;
+	margin: 0 0 1.5em;
+}
+#dylan_quote .author {
+	font-size: .888em;
+	font-style: normal;
+}
+#front_picture {
+	height: 26.625em;
+	margin: 0 0 3em;
+}
+h1 {
+	font-size: 2em;
+	line-height: 1.5em;
+	padding: 0 2.5em;
+}
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+#splash #navigation {
+	padding: 0 5em .875em;
+}
+#navigation {
+	line-height: 1.2em;
+	padding: .875em 5em;
+}
+#navigation li {
+	display: inline;
+	font-size: 1.25em;
+	margin: 0 1em 0 0;
+}
+#splash li {
+	margin: 0 1em;
+}
+
+#content img {
+	float: left;
+	margin: .75em;
+	margin-left: 0;
+}
+
+h2 {
+	clear: both;
+	font-size: 1.125em;
+	font-weight: bold;
+	line-height: 1.3333em;
+	margin: 2em 4.444em .6666em;
+	margin-left: 3.5em;
+}
+#content h2:first-child { margin-top: .6666em; }
+
+a { color: #D22; }
+a:hover { color: #950109; }
+
+blockquote {
+	background: url('rquote.png') no-repeat right bottom;
+	margin-right: 6em;
+	padding-right: 2em;
+	padding-left: 8em;
+}
+blockquote p { margin: 1.5em 0 0; }
+blockquote *:first-child {
+	background: url('lquote.png') no-repeat 0 0;
+	margin-left: -2.4em;
+	padding-left: 2.4em;
+}
+
+div.vcard {
+	padding: 1.5em 5em 0;
+}
+
+dl { margin: 1.5em 5em 0; }
+dt {
+	font-weight: bold;
+}
+dd { margin-bottom: 1.5em; }
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+img { border: 3px solid black; }
+
+p { margin: 1.5em 5em 0; }
+h2 + ol , h2 + p , h2 + ul { margin-top: 0 !important; }
+h3 + ol , h3 + p , h3 + ul { margin-top: 0 !important; }
+
+h3 {
+	margin: 1.5em 5em 0;
+	font-weight: bold;
+}
+h2 + h3 {
+	margin-top: 0;
+}
+
+#splash { text-align: center; }
+
+#mission-statement {
+	background-color: #eee;
+	margin: 1.5em 5em 2.25em 5em;
+	padding: .75em;
+}
+#mission-statement h2 {
+	margin: 0 0 .6666em !important;
+}
+#mission-statement p {
+	margin: 0;
+}
+
+.schedule {
+	line-height: 1.5em;
+	margin: 0 5em;
+	width: 39em;
+}
+.schedule th {
+	font-weight: bold;
+	text-align: center;
+}
+
+.schedule tr th:first-child {
+	text-align: left;
+}
+.schedule tr td:first-child + td {
+	text-align: center;
+}
+
+ol {
+	margin: 1.5em 5em 0;
+	padding-left: 1.5em;
+}
+
+#content ul {
+	margin: 1.5em 5em 0;
+}
+dd ul {
+	margin: 0 !important;
+}
+
+
+#tournament-downloads { margin: 1.5em 5em 0; }
+#tournament-downloads div {
+	width: 43%;
+}
+#tournament-downloads h3 {
+	text-align: center;
+	margin: 0;
+}
+#tournament-downloads p {
+	text-align: center;
+	margin: 0;
+}
+#tournament-downloads .left {
+	float: left;
+}
+#tournament-downloads .right {
+	float: right;
+	margin-right: 3%;
+}
+
+#tournament-downloads img {
+	float: none;
+}
+
+#tournament-pictures {
+	padding-top: 1.5em;
+}
